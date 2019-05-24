@@ -10,7 +10,7 @@ F2的在微信小程序原生和wepy框架下的插件，支持F2的所有功能
  ***
  本文参考了微信小程序的自定义组件的结构与[echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin) 的封装思路，同样吸收了wepy的调用原生组件的方式
 
-最最关键是借鉴了antvis/wx-f2 https://github.com/antvis/wx-f2/tree/custom-component, 感谢以上项目coder的奉献，站在的巨人的肩膀上就是一个字，爽。
+最最关键是借鉴了[antvis/wx-f2](https://github.com/antvis/wx-f2/tree/custom-component), 感谢以上项目coder的奉献，站在的巨人的肩膀上就是一个字，爽。
 
 ## 快速使用流程
 
@@ -64,7 +64,7 @@ src__
 
   	 ** Step3 在methods方法外，记住是initChart 跟methods同级，它不在methods = {}中。
 		```js
-		// initchart里写自己要用的图形配置什么的，详情请参考 f2的api https://www.yuque.com/antv/f2/api-index		
+		// initchart里写自己要用的图形配置什么的，详情请参考 [f2的api](https://www.yuque.com/antv/f2)		
 	 	initChart(canvas, width, height, soucreData) {
 	 		let chart = null  
 		    chart = new F2.Chart({
