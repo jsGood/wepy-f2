@@ -62,7 +62,8 @@ src__
   	```
   	在这一步里，**就是id最重要，为了区分页面多个情况，请设置`id`，一定要设置不一样的id， 一定要，重要的事情说多了就是管用**
 
-  	 ** Step3 在methods方法外，记住是initChart 跟methods同级，它不在methods = {}中。
+  	 ** Step3 在methods方法外，记住是initChart 跟methods同级，它不在methods中。
+  	 
 		```js
 		// initchart里写自己要用的图形配置什么的，详情请参考 [f2的api](https://www.yuque.com/antv/f2)		
 	 	initChart(canvas, width, height, soucreData) {
