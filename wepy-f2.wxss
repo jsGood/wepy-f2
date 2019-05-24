@@ -1,0 +1,17 @@
+/* wepy-f2.wxss */
+.wepy-f2 {
+  mix-width: 200px;
+  mix-height: 200px;
+}
+.wepy-f2{
+    position: absolute;
+    top: 100rpx;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
