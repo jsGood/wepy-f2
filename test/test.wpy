@@ -1,0 +1,12 @@
+<template >
+
+</template>
+
+<script>
+import wepy from 'wepy'
+export default class Test extends wepy.page {
+}
+</script>
+
+<style lang="less">
+</style>
